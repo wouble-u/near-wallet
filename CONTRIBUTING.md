@@ -1,28 +1,23 @@
-# Contributing to NEAR
+# Contributing
 
-NEAR welcomes help in many forms including development, code review, documentation improvements, and outreach.
-Please visit [the contribution overview](https://docs.nearprotocol.com/docs/contribution/contribution-overview) for more information.
+Thank you for your interest in contributing to this project.
 
-## Using Github issues and pull requests
+## Getting Started
 
-Some repositories have specific issue templates that will be helpful for maintainers and community contributors. Please use the templates whenever available.
+1. Fork the repository  
+2. Create a feature branch  
+3. Make your changes  
+4. Submit a pull request
 
-Please include steps to reproduction, if reporting an error. Information on all applicable versions is quite helpful. Some versions can be found using the command line. (For example: `node --version` or `rustc --version`.) Other version information may be packaged as dependencies. (For example: in `package.json` or `Cargo.toml`.)
+## Code Guidelines
 
-If there are verbosity flags available, please include those to offer as much information as possible.
+- Write clear and maintainable code  
+- Add comments when necessary  
+- Ensure tests pass before submitting a PR
 
-When opening a pull request, please use the typical open-source flow of forking the desired repository and opening a pull request from your forked repository. (More information on [technical contributions here](https://docs.nearprotocol.com/docs/contribution/technical-contribution).)
+## Pull Requests
 
-## Testing
-
-Please note that for technical contributions, NEAR runs a battery of continuous integration tools and tests for each pull request.
-
-It's encouraged to write unit tests on new features. Many NEAR repositories have built-in scripts that run tests locally. Tests may check linting and must be addressed.
-
-For example, a repository might have `yarn test` available. It's a good idea to run tests locally before submitting a pull request, as these will be caught during the CI process.
-
-**Note**: this Wallet repository is one where `yarn test` is available. Before running tests, run `yarn` to ensure all the dependencies are brought in.
-
-### Thank you
-
-NEAR values all contributors to the projects in the ecosystem and invites public discussion on the tech and vision. Please feel free to join the conversation using the links offered at [near.help](https://near.help).
+Please ensure:  
+- Your code builds successfully  
+- Tests pass  
+- Your PR includes a clear description of the changes
