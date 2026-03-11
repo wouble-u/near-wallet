@@ -1,14 +1,21 @@
-# NEAR Wallet
+# NEAR Wallet 🦊
 
-[![Build Status](https://travis-ci.com/near/near-wallet.svg?branch=master)](https://travis-ci.com/near/near-wallet)
-[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/near/near-wallet)
+**Welcome to your in-browser NEAR Wallet!**  
+Manage your NEAR accounts straight from your browser, fast and easy. 🚀  
 
-This is in-browser web-based wallet for working with NEAR accounts. This wallet stores account keys in open text using the localStorage on user's machine.
+---
 
-WARNING: This wallet shouldn't be used as the only signer for high-value accounts. Make sure to use hardware wallet when substantial amount of NEAR tokens is involved.
+⚠️ **Security Alert from GM woubleu:**  
+- Your keys are stored in **plain text using localStorage** on your machine. Treat them like treasure! 🗝️  
+- **Never use this as the only signer for high-value accounts.**  
+- For serious NEAR holdings, always use a **hardware wallet** for maximum security. Your tokens deserve the VIP treatment. 💎  
 
-## PACKAGES
-### [e2e-tests](packages/e2e-tests)
-Test suite for verifying core use cases and user flow are functional in the UI
-### [frontend](packages/frontend)
-Wallet frontend (React/Redux app).
+---
+
+## Packages
+
+### e2e-tests  
+Automated tests to make sure the core user flows and functionalities are working smoothly in the UI. Think of it as the wallet’s personal fitness tracker. 🏋️‍♂️  
+
+### frontend  
+The React/Redux-powered frontend that makes your wallet look good and work even better. 💻✨
